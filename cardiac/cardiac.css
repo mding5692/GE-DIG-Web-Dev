@@ -1,0 +1,40 @@
+html {
+    font-family: sans-serif;
+}
+
+h2 {
+    font-size:1.5em;margin:.83em;
+}
+
+.parallax-scroll {
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: 50% 50%;
+  color: #fff;
+}
+
+.parallax-scroll .content {
+    color: #fff;
+    position: relative;
+    text-align: center;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+
+#parallax-image1 {
+  background-image: url('intro.jpg.jpg');
+}
+
+#diagram {
+    padding: 20px;
+    margin:30px;
+    margin-left:10px;
+}
+
+#parallax-image2 {
+ background-image: url(' ');   
+}

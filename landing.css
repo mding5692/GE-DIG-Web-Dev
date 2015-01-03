@@ -1,0 +1,121 @@
+html {
+	font-family: Myriad Set Pro, Lucida Grande, Geneva, Arial, Verdana, sans-serif; 
+	line-height: 1.8em;
+	background-color: #FFF8DC;
+}
+#overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;	
+    height: 100%;
+    background-color: #000;
+    filter:alpha(opacity=50);
+    -moz-opacity:0.5;
+    -khtml-opacity: 0.5;
+    opacity: 0.5;
+    z-index: 10000;
+}
+
+.scroll-button {
+	padding: 20px;
+	border-radius: 40px;
+	margin-top: 100px;
+	border-width: 3px;
+	margin-left: 750px;
+	margin-right: 750px;
+	border-bottom-style: double;
+	border-color: #CD2626;
+	color: #CD2626;
+	text-align: center;
+}
+
+
+#dilemma {
+  background: url("https://ununsplash.imgix.net/photo-1416339684178-3a239570f315?q=75&fm=jpg&s=c39d9a3bf66d6566b9608a9f1f3765af") 50% 0 repeat fixed; min-height: 1000px;
+  height: 1200px;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 1920px;
+  position: relative;
+}
+ 
+#dilemma h2 {
+	margin: 30px;
+	margin-left: 50px;
+	margin-top: 70px;
+	color: #8B0000;
+
+}
+
+#dilemma article {
+	border-radius: 20px;
+	border-style: dashed;
+	border-width: 3px;
+	padding: 20px;
+	margin-top: 140px;
+	  position: absolute;
+	  text-align: left;
+	  margin: 20px;
+	  margin-right: 100px;
+	  margin-left: 70px; 
+}
+
+#dilemma h3 {
+	margin-top: 280px;
+	margin-right: 120px;
+	margin-left: 50px;
+	border-bottom-style: double;
+	border-radius: 5px;
+	border-width: 5px;
+	text-align: right;
+}
+
+/* Use golden ratio next time? */
+#dilemma h1 {
+	margin-top: 100px;
+	margin-left: 120px;
+	font-size: 30px;
+	color: #8B0000;
+
+}
+
+
+ 
+#example {
+  background: url("https://ununsplash.imgix.net/photo-1415045384817-2f9cf7f2ed79?q=75&fm=jpg&s=a0d8ebf44a449c7855ca4128e914a7c5") 50% 0 repeat fixed; min-height: 1000px;
+  height: 1200px;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 1920px;
+  position: relative;
+  -webkit-box-shadow: 0 0 50px rgba(0,0,0,0.8);
+  box-shadow: 0 0 50px rgba(0,0,0,0.8);
+}
+ 
+#example article {
+  height: 458px;
+  position: absolute;
+  text-align: center;
+  top: 150px;
+  width: 100%;
+}
+
+#product {
+  background: url("https://unsplash.imgix.net/uploads/14131528928453585b6dc/829d24cf?q=75&fm=jpg&s=eaf9f7f2b07eabc753b9ea3c7c65b2d7") 50% 0 repeat fixed; min-height: 1000px;
+  height: 1200px;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 1920px;
+  position: relative;
+  -webkit-box-shadow: 0 0 50px rgba(0,0,0,0.8);
+  box-shadow: 0 0 50px rgba(0,0,0,0.8);
+}
+
+#product article {
+  height: 458px;
+  position: absolute;
+  text-align: center;
+  top: 150px;
+  width: 100%;
+}
